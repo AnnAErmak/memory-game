@@ -20,11 +20,11 @@
 
 - размеры игрового поля:
 
-<img src="/images/screenshot/playing-field4x4.jpg" width="60%" height="60%" />
-<img src="/images/screenshot/playing-field6x6.jpg" width="60%" height="60%" />
-<img src="/images/screenshot/playing-field8x8.jpg" width="60%" height="60%" />
+  <img src="/images/screenshot/playing-field4x4.jpg" width="60%" height="60%" />
+  <img src="/images/screenshot/playing-field6x6.jpg" width="60%" height="60%" />
+  <img src="/images/screenshot/playing-field8x8.jpg" width="60%" height="60%" />
 
 - загрузка при рестарте уровня:
 
-<img src="/images/screenshot/loader.jpg" width="60%" height="60%" />
+  <img src="/images/screenshot/loader.jpg" width="60%" height="60%" />
 
