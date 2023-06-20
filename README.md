@@ -15,5 +15,5 @@
 ### Примеры игровых экранов:
 
 - стартовый экран
-  <img src="/images/screenshot/stsrt-screen.jpg" width="60%" height="60%" />
+  <img src="/images/screenshot/start-screen.jpg" width="60%" height="60%" />
 
