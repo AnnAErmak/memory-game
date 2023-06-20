@@ -15,4 +15,5 @@
 ### Примеры игровых экранов:
 
 - стартовый экран
-![Image alt](https://github.com/AnnAErmak/memory-game.git/raw/master/images/screenshot/stsrt-screen.jpg)
+  <img src="/images/screenshot/stsrt-screen.jpg" width="60%" height="60%" />
+
