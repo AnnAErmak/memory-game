@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Ermak AnnA">
+    <meta name="description" content="Мир лошадей Максимус">
+    <link rel="icon" type="image/png" href="https://img.icons8.com/?size=512&id=yIEXkWu3pI1T&format=png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css"/>
+    <title>Memory game</title>
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <button id = "btn-menu" class="btn-menu">Меню</button>
+        <button id = "btn-restart" class="btn-restart">
+            <img src="images/restart.png">
+        </button>
+        <div class="wrapper-info">
+            <div id="moves-count">Количество ходов: <span>0</span></div>
+            <div id="time">Время: 00:00</div>
+        </div>
+    </div>
+
+</header>
+<main>
+    <div class="playing-field" onmousedown="return false" onselectstart="return false"></div>
+</main>
+<footer></footer>
+    <div class="start-screen">
+        <h1>"Проверь свою память"</h1>
+<!--        <img class="start-img" src="images/start-img.png">-->
+        <div class="settings">
+            <button class="btn-start">Старт</button>
+            <label for = "field-size">Выберите размер поля</label>
+            <select id="field-size">
+                <option value="16" selected>4x4</option>
+                <option value="36" >6x6</option>
+                <option value="64">8x8</option>
+            </select>
+        </div>
+    </div>
+
+<script type="module" src="/items.js" defer ></script>
+<script type="module" src="/script.js" defer ></script>
+</body>
+</html>
